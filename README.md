@@ -9,10 +9,10 @@ This package is designed around the snakemake workflow system and we recommend u
 for installing the required packages. User specified input files will be written into the snakefile in locations designated by comments. Future updates will incorporate command line input. Download and run this pipeline using the following series of commands:
 
 ```
-git clone https://github.com/mariele-lensink/mutrate_express.git
-conda env create -n popdiff -f mutrate_express/requirements.yml
+git clone https://github.com/mariele-lensink/PopDiff.git
+conda env create -n popdiff -f PopDiff/requirements.yml
 conda activate popdiff
-snakemake --snakefile mutrate_express/snakefile -d outdir -j 2 --config reads=reads.ont.fastq gblocks=components.fasta inserts=3
+snakemake --snakefile PopDiff/snakefile -j 10
 ```
 
 ## Input Files:

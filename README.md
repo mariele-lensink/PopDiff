@@ -1,6 +1,9 @@
 # PopDiff
 PopDiff calculates and compares polymorphisms across a genome between 2 different populations.  
 
+### Notice
+PopDiff is currently undergoing configuration updates.
+
 ## Background
 PopDiff is an automated tool that can calculate and compare the accumulation of SNPS at the feature level throughout an entire genome between 2 populations. PopDiff also provides important population biology statistics to characterize SNPs within each population at the gene feature level. This allows users to create inferences about or within any gene of a given genome. 
 
